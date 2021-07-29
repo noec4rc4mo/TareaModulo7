@@ -492,7 +492,7 @@ public static String calculadora(String memoria1, String memoria2, String signo)
             break;
         }
     }
-    return resultado;
+    return resultado; 
 }
     /**
      * @param args the command line arguments
