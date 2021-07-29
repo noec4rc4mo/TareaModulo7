@@ -466,7 +466,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton37ActionPerformed
 public static String calculadora(String memoria1, String memoria2, String signo){
     Double resultado=0.0;
-    String respuesta;
+    String respuesta1;
     if(signo.equals("+")){
         resultado=Double.parseDouble(memoria1)+Double.parseDouble(memoria2);
     }
@@ -479,8 +479,8 @@ public static String calculadora(String memoria1, String memoria2, String signo)
     if(signo.equals("*")){
         resultado=Double.parseDouble(memoria1)*Double.parseDouble(memoria2);
     }
-        respuesta=resultado.toString();
-        return respuesta;
+        respuesta1=resultado.toString();
+        return respuesta1;
 }
         
     public static boolean existepunto(String cadena){
